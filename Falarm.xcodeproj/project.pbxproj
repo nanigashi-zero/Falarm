@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBCB788256F59A600C9D3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB787256F59A600C9D3D8 /* AppDelegate.swift */; };
+		1FBCB78A256F59A600C9D3D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB789256F59A600C9D3D8 /* SceneDelegate.swift */; };
+		1FBCB78C256F59A600C9D3D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB78B256F59A600C9D3D8 /* ContentView.swift */; };
+		1FBCB78E256F59AB00C9D3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB78D256F59AB00C9D3D8 /* Assets.xcassets */; };
+		1FBCB791256F59AB00C9D3D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB790256F59AB00C9D3D8 /* Preview Assets.xcassets */; };
+		1FBCB794256F59AB00C9D3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCB792256F59AB00C9D3D8 /* LaunchScreen.storyboard */; };
+		1FBCB79F256F59AC00C9D3D8 /* FalarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB79E256F59AC00C9D3D8 /* FalarmTests.swift */; };
+		1FBCB7AA256F59AC00C9D3D8 /* FalarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCB7A9256F59AC00C9D3D8 /* FalarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FBCB79B256F59AC00C9D3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBCB77C256F59A600C9D3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FBCB783256F59A600C9D3D8;
+			remoteInfo = Falarm;
+		};
+		1FBCB7A6256F59AC00C9D3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBCB77C256F59A600C9D3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FBCB783256F59A600C9D3D8;
+			remoteInfo = Falarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FBCB784256F59A600C9D3D8 /* Falarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Falarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBCB787256F59A600C9D3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FBCB789256F59A600C9D3D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FBCB78B256F59A600C9D3D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FBCB78D256F59AB00C9D3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FBCB790256F59AB00C9D3D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FBCB793256F59AB00C9D3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FBCB795256F59AB00C9D3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBCB79A256F59AC00C9D3D8 /* FalarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBCB79E256F59AC00C9D3D8 /* FalarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalarmTests.swift; sourceTree = "<group>"; };
+		1FBCB7A0256F59AC00C9D3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBCB7A5256F59AC00C9D3D8 /* FalarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBCB7A9256F59AC00C9D3D8 /* FalarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalarmUITests.swift; sourceTree = "<group>"; };
+		1FBCB7AB256F59AC00C9D3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBCB781256F59A600C9D3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBCB797256F59AC00C9D3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBCB7A2256F59AC00C9D3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBCB77B256F59A600C9D3D8 = {
+			isa = PBXGroup;
+			children = (
+				1FBCB786256F59A600C9D3D8 /* Falarm */,
+				1FBCB79D256F59AC00C9D3D8 /* FalarmTests */,
+				1FBCB7A8256F59AC00C9D3D8 /* FalarmUITests */,
+				1FBCB785256F59A600C9D3D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBCB785256F59A600C9D3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCB784256F59A600C9D3D8 /* Falarm.app */,
+				1FBCB79A256F59AC00C9D3D8 /* FalarmTests.xctest */,
+				1FBCB7A5256F59AC00C9D3D8 /* FalarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBCB786256F59A600C9D3D8 /* Falarm */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCB787256F59A600C9D3D8 /* AppDelegate.swift */,
+				1FBCB789256F59A600C9D3D8 /* SceneDelegate.swift */,
+				1FBCB78B256F59A600C9D3D8 /* ContentView.swift */,
+				1FBCB78D256F59AB00C9D3D8 /* Assets.xcassets */,
+				1FBCB792256F59AB00C9D3D8 /* LaunchScreen.storyboard */,
+				1FBCB795256F59AB00C9D3D8 /* Info.plist */,
+				1FBCB78F256F59AB00C9D3D8 /* Preview Content */,
+			);
+			path = Falarm;
+			sourceTree = "<group>";
+		};
+		1FBCB78F256F59AB00C9D3D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCB790256F59AB00C9D3D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FBCB79D256F59AC00C9D3D8 /* FalarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCB79E256F59AC00C9D3D8 /* FalarmTests.swift */,
+				1FBCB7A0256F59AC00C9D3D8 /* Info.plist */,
+			);
+			path = FalarmTests;
+			sourceTree = "<group>";
+		};
+		1FBCB7A8256F59AC00C9D3D8 /* FalarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCB7A9256F59AC00C9D3D8 /* FalarmUITests.swift */,
+				1FBCB7AB256F59AC00C9D3D8 /* Info.plist */,
+			);
+			path = FalarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FBCB783256F59A600C9D3D8 /* Falarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBCB7AE256F59AC00C9D3D8 /* Build configuration list for PBXNativeTarget "Falarm" */;
+			buildPhases = (
+				1FBCB780256F59A600C9D3D8 /* Sources */,
+				1FBCB781256F59A600C9D3D8 /* Frameworks */,
+				1FBCB782256F59A600C9D3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Falarm;
+			productName = Falarm;
+			productReference = 1FBCB784256F59A600C9D3D8 /* Falarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FBCB799256F59AC00C9D3D8 /* FalarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBCB7B1256F59AC00C9D3D8 /* Build configuration list for PBXNativeTarget "FalarmTests" */;
+			buildPhases = (
+				1FBCB796256F59AC00C9D3D8 /* Sources */,
+				1FBCB797256F59AC00C9D3D8 /* Frameworks */,
+				1FBCB798256F59AC00C9D3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FBCB79C256F59AC00C9D3D8 /* PBXTargetDependency */,
+			);
+			name = FalarmTests;
+			productName = FalarmTests;
+			productReference = 1FBCB79A256F59AC00C9D3D8 /* FalarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FBCB7A4256F59AC00C9D3D8 /* FalarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBCB7B4256F59AC00C9D3D8 /* Build configuration list for PBXNativeTarget "FalarmUITests" */;
+			buildPhases = (
+				1FBCB7A1256F59AC00C9D3D8 /* Sources */,
+				1FBCB7A2256F59AC00C9D3D8 /* Frameworks */,
+				1FBCB7A3256F59AC00C9D3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FBCB7A7256F59AC00C9D3D8 /* PBXTargetDependency */,
+			);
+			name = FalarmUITests;
+			productName = FalarmUITests;
+			productReference = 1FBCB7A5256F59AC00C9D3D8 /* FalarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBCB77C256F59A600C9D3D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "唐崎浩誠";
+				TargetAttributes = {
+					1FBCB783256F59A600C9D3D8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					1FBCB799256F59AC00C9D3D8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1FBCB783256F59A600C9D3D8;
+					};
+					1FBCB7A4256F59AC00C9D3D8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1FBCB783256F59A600C9D3D8;
+					};
+				};
+			};
+			buildConfigurationList = 1FBCB77F256F59A600C9D3D8 /* Build configuration list for PBXProject "Falarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBCB77B256F59A600C9D3D8;
+			productRefGroup = 1FBCB785256F59A600C9D3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBCB783256F59A600C9D3D8 /* Falarm */,
+				1FBCB799256F59AC00C9D3D8 /* FalarmTests */,
+				1FBCB7A4256F59AC00C9D3D8 /* FalarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBCB782256F59A600C9D3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBCB794256F59AB00C9D3D8 /* LaunchScreen.storyboard in Resources */,
+				1FBCB791256F59AB00C9D3D8 /* Preview Assets.xcassets in Resources */,
+				1FBCB78E256F59AB00C9D3D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBCB798256F59AC00C9D3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBCB7A3256F59AC00C9D3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBCB780256F59A600C9D3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBCB788256F59A600C9D3D8 /* AppDelegate.swift in Sources */,
+				1FBCB78A256F59A600C9D3D8 /* SceneDelegate.swift in Sources */,
+				1FBCB78C256F59A600C9D3D8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBCB796256F59AC00C9D3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBCB79F256F59AC00C9D3D8 /* FalarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBCB7A1256F59AC00C9D3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBCB7AA256F59AC00C9D3D8 /* FalarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FBCB79C256F59AC00C9D3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FBCB783256F59A600C9D3D8 /* Falarm */;
+			targetProxy = 1FBCB79B256F59AC00C9D3D8 /* PBXContainerItemProxy */;
+		};
+		1FBCB7A7256F59AC00C9D3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FBCB783256F59A600C9D3D8 /* Falarm */;
+			targetProxy = 1FBCB7A6256F59AC00C9D3D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FBCB792256F59AB00C9D3D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBCB793256F59AB00C9D3D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FBCB7AC256F59AC00C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FBCB7AD256F59AC00C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBCB7AF256F59AC00C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Falarm/Preview Content\"";
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Falarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = version0.1.Falarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FBCB7B0256F59AC00C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Falarm/Preview Content\"";
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Falarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = version0.1.Falarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FBCB7B2256F59AC00C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FalarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = version0.1.FalarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falarm.app/Falarm";
+			};
+			name = Debug;
+		};
+		1FBCB7B3256F59AC00C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FalarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = version0.1.FalarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falarm.app/Falarm";
+			};
+			name = Release;
+		};
+		1FBCB7B5256F59AC00C9D3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FalarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = version0.1.FalarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Falarm;
+			};
+			name = Debug;
+		};
+		1FBCB7B6256F59AC00C9D3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VM5H25X4KC;
+				INFOPLIST_FILE = FalarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = version0.1.FalarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Falarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBCB77F256F59A600C9D3D8 /* Build configuration list for PBXProject "Falarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBCB7AC256F59AC00C9D3D8 /* Debug */,
+				1FBCB7AD256F59AC00C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBCB7AE256F59AC00C9D3D8 /* Build configuration list for PBXNativeTarget "Falarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBCB7AF256F59AC00C9D3D8 /* Debug */,
+				1FBCB7B0256F59AC00C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBCB7B1256F59AC00C9D3D8 /* Build configuration list for PBXNativeTarget "FalarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBCB7B2256F59AC00C9D3D8 /* Debug */,
+				1FBCB7B3256F59AC00C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBCB7B4256F59AC00C9D3D8 /* Build configuration list for PBXNativeTarget "FalarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBCB7B5256F59AC00C9D3D8 /* Debug */,
+				1FBCB7B6256F59AC00C9D3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBCB77C256F59A600C9D3D8 /* Project object */;
+}
